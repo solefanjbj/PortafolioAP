@@ -1,0 +1,6 @@
+npm install -g @angular/cli@latest //INSTALA ANGULAR
+
+
+ng serve  //INICIA SERVIDOR WEB ANGULAR
+
+ng generate component components/header  //GENERA NUEVOS COMPONENTES EN PROJECTO DE ANGULAR

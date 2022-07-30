@@ -1,0 +1,38 @@
+.row{
+    padding: 10px;
+}
+div{
+    background-color: beige;
+    /*text-align: justify;*/
+}
+#nombre{
+    margin-top: -110%;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+#titulo{
+    font-weight: bolder;
+}
+@media(min-width: 576px){
+    #fotoperfil{
+        position: relative;
+        border-radius: 70%;
+        margin-top: -110%;
+        width: 70%;
+        margin-left:15%;
+
+    }
+}
+@media(max-width: 575px){
+    #fotoperfil{
+       /* position:absolute;
+        /*border-radius: 70%;*/
+        top: 300px;
+        width: 15%;
+    }
+    #apellido{
+        position: absolute;
+        top: 300px;
+    }
+}
