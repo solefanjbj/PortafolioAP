@@ -2,37 +2,47 @@
     padding: 10px;
 }
 div{
-    background-color: beige;
+    background-color: #FFEBEE;
     /*text-align: justify;*/
 }
-#nombre{
-    margin-top: -110%;
-    font-weight: bold;
-    font-style: italic;
-    
-}
-#titulo{
-    font-weight: bolder;
-}
+
 @media(min-width: 576px){
     #fotoperfil{
         position: relative;
         border-radius: 70%;
-        margin-top: -110%;
-        width: 70%;
+        margin-top: -50%;
+        width: 90%;
         margin-left:15%;
 
+    }
+    #nombre{
+        margin-top: 45%;
+        margin-left: -90%;
+        font-weight: bold;
+        font-style: italic;
+        
+    }
+    #titulo{
+        margin-left: -65%;
+        font-weight: bolder;
     }
 }
 @media(max-width: 575px){
     #fotoperfil{
-       /* position:absolute;
-        /*border-radius: 70%;*/
-        top: 300px;
-        width: 15%;
+        position:relative;
+        border-radius: 70%;
+       
     }
-    #apellido{
-        position: absolute;
-        top: 300px;
+    #nombre{
+        
+        
+        font-weight: bold;
+        font-style: italic;
+        
     }
+    #titulo{
+        
+        font-weight: bolder;
+    }
+
 }

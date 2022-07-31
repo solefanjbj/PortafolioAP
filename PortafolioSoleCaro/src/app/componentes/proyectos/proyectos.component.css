@@ -1,0 +1,21 @@
+.row{
+    padding: 20px;
+    background-color: #FFEBEE; 
+    
+}
+
+.descripcion{
+    display:inline-block;
+    
+}
+.imagen{
+    position: relative;
+    display: inline-block;
+    margin: 1em;
+    
+}
+.img-proyecto{
+    width: 80%;
+    margin-left: 10%;
+    
+}

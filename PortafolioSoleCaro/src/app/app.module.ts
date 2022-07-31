@@ -11,6 +11,10 @@ import { RedSocialComponent } from './componentes/red-social/red-social.componen
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { FormacionComponent } from './componentes/formacion/formacion.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HySSkillsComponent } from './componentes/hy-sskills/hy-sskills.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +26,15 @@ import { FormacionComponent } from './componentes/formacion/formacion.component'
     RedSocialComponent,
     ExperienciaComponent,
     EducacionComponent,
-    FormacionComponent
+    FormacionComponent,
+    HySSkillsComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
