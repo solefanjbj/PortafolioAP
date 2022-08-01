@@ -1,8 +1,22 @@
-div{
-    background-color:#a1b5bc;
-}
 
-app-red-social{
-    float: right;
-    margin-top: 25px;
+.row{
+    background: linear-gradient(to right, #a1b5bc , #FFEBEE);
+    
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#logoap{
+    width:150px;
+}
+.redsocial img{
+    display: flex;
+    width: 40px;
+    margin-right: 5px;
+    float: left;
+}
+.redsocial button{
+    margin-right: 5px;
 }
