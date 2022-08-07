@@ -14,7 +14,7 @@
     <body>
         <h1>Datos de la persona</h1>
         
-        <form action="" method="">
+        <form action="SvPersona" method="POST">
             <p><label>DNI</label><input type="text" name="dni"></p>
             <p><label>NOMBRE</label><input type="text" name="nombre"></p>
             <p><label>APELLIDO</label><input type="text" name="apellido"></p>
@@ -24,14 +24,14 @@
         
         <h1>Lista de personas</h1>
         <p>Si desea ver las personas presione el boton MOSTRAR</p>
-        <form action="" method="">
+        <form action="SvPersona" method="GET">
             <button type="submit">MOSTRAR</button>
         </form>
         
         <h1>Eliminar persona</h1>
         <p>Ingrese el dni para eliminar la persona</p>
-        <form action="" method="">
-             <p><label>DNI</label><input type="text" name="elim_dni"></p>
+        <form action="SvEliminar" method="POST">
+             <p><label>ID</label><input type="text" name="id_eliminar"></p>
              <button type="submit">ELIMINAR</button>
         </form>
        
