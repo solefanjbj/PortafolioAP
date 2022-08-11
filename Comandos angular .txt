@@ -1,6 +1,17 @@
 npm install -g @angular/cli@latest //INSTALA ANGULAR
 
+ng new portafoliosolecaro  //crear el poryecto de angular en la carpeta en donde esta parado
+
+npm install boostrap bootstrap jquery @popperjs/core  //agrega dependencias de css al proyecto
 
 ng serve  //INICIA SERVIDOR WEB ANGULAR
 
-ng generate component components/header  //GENERA NUEVOS COMPONENTES EN PROJECTO DE ANGULAR
+ng generate component componentes/header  //GENERA NUEVOS COMPONENTES EN PROJECTO DE ANGULAR
+
+npm i --save--dev @angular/cli@latest //actualiza librerias de angular en el proyecto
+
+git
+
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com ///configuran el acceso remoto

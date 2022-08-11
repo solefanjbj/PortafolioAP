@@ -1,0 +1,346 @@
+07-Aug-2022 13:07:37.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.81
+07-Aug-2022 13:07:37.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Jun 8 2022 21:30:15 UTC
+07-Aug-2022 13:07:37.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.81.0
+07-Aug-2022 13:07:37.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+07-Aug-2022 13:07:37.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+07-Aug-2022 13:07:37.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+07-Aug-2022 13:07:37.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18.0.2
+07-Aug-2022 13:07:37.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2+9-61
+07-Aug-2022 13:07:37.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+07-Aug-2022 13:07:37.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 13:07:37.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 13:07:37.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Aug-2022 13:07:37.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+07-Aug-2022 13:07:37.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+07-Aug-2022 13:07:37.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Aug-2022 13:07:37.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2022 13:07:37.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\logging.properties
+07-Aug-2022 13:07:37.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2022 13:07:37.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|PC-SOLE
+07-Aug-2022 13:07:37.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2022 13:07:37.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2022 13:07:37.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+07-Aug-2022 13:07:37.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 13:07:37.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 13:07:37.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\temp
+07-Aug-2022 13:07:37.890 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.33] con la versión APR [1.7.0].
+07-Aug-2022 13:07:37.890 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+07-Aug-2022 13:07:37.890 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2022 13:07:37.901 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2022 13:07:38.021 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+07-Aug-2022 13:07:38.093 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2263 ms
+07-Aug-2022 13:07:38.254 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+07-Aug-2022 13:07:38.276 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+07-Aug-2022 13:07:38.300 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\docs] de la aplicación web
+07-Aug-2022 13:07:39.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\docs] has finished in [976] ms
+07-Aug-2022 13:07:39.282 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\examples] de la aplicación web
+07-Aug-2022 13:07:40.782 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\examples] has finished in [1.500] ms
+07-Aug-2022 13:07:40.784 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\host-manager] de la aplicación web
+07-Aug-2022 13:07:40.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\host-manager] has finished in [127] ms
+07-Aug-2022 13:07:40.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\manager] de la aplicación web
+07-Aug-2022 13:07:41.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\manager] has finished in [156] ms
+07-Aug-2022 13:07:41.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\ROOT] de la aplicación web
+07-Aug-2022 13:07:41.136 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\ROOT] has finished in [66] ms
+07-Aug-2022 13:07:41.144 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 13:07:41.290 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3191 ms
+07-Aug-2022 13:07:59.169 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml]
+07-Aug-2022 13:07:59.327 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml] has finished in [158] ms
+07-Aug-2022 13:07:59.336 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PortafolioSoleCaroBackEnd]] after start() had already been called. The second call will be ignored.
+07-Aug-2022 13:31:23.859 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+07-Aug-2022 13:31:23.860 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 13:31:23.872 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+07-Aug-2022 13:31:23.957 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 13:31:23.965 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 14:21:47.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.81
+07-Aug-2022 14:21:47.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Jun 8 2022 21:30:15 UTC
+07-Aug-2022 14:21:47.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.81.0
+07-Aug-2022 14:21:47.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+07-Aug-2022 14:21:47.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+07-Aug-2022 14:21:47.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+07-Aug-2022 14:21:47.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18.0.2
+07-Aug-2022 14:21:47.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2+9-61
+07-Aug-2022 14:21:47.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+07-Aug-2022 14:21:47.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 14:21:47.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 14:21:47.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Aug-2022 14:21:47.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+07-Aug-2022 14:21:47.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+07-Aug-2022 14:21:47.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Aug-2022 14:21:47.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2022 14:21:47.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\logging.properties
+07-Aug-2022 14:21:47.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2022 14:21:47.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|PC-SOLE
+07-Aug-2022 14:21:48.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2022 14:21:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2022 14:21:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+07-Aug-2022 14:21:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 14:21:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 14:21:48.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\temp
+07-Aug-2022 14:21:48.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.33] con la versión APR [1.7.0].
+07-Aug-2022 14:21:48.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+07-Aug-2022 14:21:48.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2022 14:21:48.092 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2022 14:21:48.271 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+07-Aug-2022 14:21:48.455 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1676 ms
+07-Aug-2022 14:21:48.591 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+07-Aug-2022 14:21:48.591 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+07-Aug-2022 14:21:48.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml]
+07-Aug-2022 14:21:49.686 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml] has finished in [1.059] ms
+07-Aug-2022 14:21:49.688 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\docs] de la aplicación web
+07-Aug-2022 14:21:49.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\docs] has finished in [77] ms
+07-Aug-2022 14:21:49.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\examples] de la aplicación web
+07-Aug-2022 14:21:51.107 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\examples] has finished in [1.342] ms
+07-Aug-2022 14:21:51.109 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\host-manager] de la aplicación web
+07-Aug-2022 14:21:51.325 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\host-manager] has finished in [216] ms
+07-Aug-2022 14:21:51.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\manager] de la aplicación web
+07-Aug-2022 14:21:51.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\manager] has finished in [130] ms
+07-Aug-2022 14:21:51.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\ROOT] de la aplicación web
+07-Aug-2022 14:21:51.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\ROOT] has finished in [80] ms
+07-Aug-2022 14:21:51.541 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 14:21:51.662 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3202 ms
+07-Aug-2022 14:27:14.793 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 14:27:15.027 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 14:27:16.913 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 14:27:17.022 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 14:42:49.716 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 14:42:50.006 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 14:42:50.811 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 14:42:50.928 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 14:59:08.519 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 14:59:08.610 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 15:01:19.755 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 15:01:19.863 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 15:01:20.306 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 15:01:20.430 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 15:03:22.189 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 15:03:22.269 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 15:03:48.184 INFO [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 15:03:48.281 INFO [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 15:08:52.671 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 15:08:52.737 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 15:08:56.240 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 15:08:56.338 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 15:17:58.314 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 15:18:04.002 INFO [http-nio-8080-exec-66] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 15:18:04.033 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 15:18:04.467 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 15:18:07.410 INFO [http-nio-8080-exec-71] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 15:18:07.420 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 15:18:49.467 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 17:12:22.021 INFO [http-nio-8080-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml]
+07-Aug-2022 17:12:25.071 INFO [http-nio-8080-exec-74] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 17:12:25.081 INFO [http-nio-8080-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml] has finished in [3.060] ms
+07-Aug-2022 17:12:25.090 INFO [http-nio-8080-exec-75] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PortafolioSoleCaroBackEnd]] after start() had already been called. The second call will be ignored.
+07-Aug-2022 17:13:49.210 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+07-Aug-2022 17:13:49.211 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 17:13:49.231 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+07-Aug-2022 17:13:49.273 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 17:13:49.285 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 17:15:18.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.81
+07-Aug-2022 17:15:18.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Jun 8 2022 21:30:15 UTC
+07-Aug-2022 17:15:18.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.81.0
+07-Aug-2022 17:15:18.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+07-Aug-2022 17:15:18.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+07-Aug-2022 17:15:18.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+07-Aug-2022 17:15:18.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18.0.2
+07-Aug-2022 17:15:18.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2+9-61
+07-Aug-2022 17:15:18.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+07-Aug-2022 17:15:18.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 17:15:18.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 17:15:18.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Aug-2022 17:15:18.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+07-Aug-2022 17:15:18.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+07-Aug-2022 17:15:18.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Aug-2022 17:15:18.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2022 17:15:18.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\logging.properties
+07-Aug-2022 17:15:18.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2022 17:15:18.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|PC-SOLE
+07-Aug-2022 17:15:18.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2022 17:15:18.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2022 17:15:18.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+07-Aug-2022 17:15:18.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 17:15:18.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81
+07-Aug-2022 17:15:18.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\temp
+07-Aug-2022 17:15:18.203 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.33] con la versión APR [1.7.0].
+07-Aug-2022 17:15:18.203 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+07-Aug-2022 17:15:18.203 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Aug-2022 17:15:18.220 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1o  3 May 2022]
+07-Aug-2022 17:15:18.428 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+07-Aug-2022 17:15:18.566 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1862 ms
+07-Aug-2022 17:15:18.809 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+07-Aug-2022 17:15:18.809 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+07-Aug-2022 17:15:18.838 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml]
+07-Aug-2022 17:15:23.154 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 17:15:23.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml] has finished in [4.493] ms
+07-Aug-2022 17:15:23.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\docs] de la aplicación web
+07-Aug-2022 17:15:23.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\docs] has finished in [119] ms
+07-Aug-2022 17:15:23.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\examples] de la aplicación web
+07-Aug-2022 17:15:24.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\examples] has finished in [1.526] ms
+07-Aug-2022 17:15:24.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\host-manager] de la aplicación web
+07-Aug-2022 17:15:25.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\host-manager] has finished in [170] ms
+07-Aug-2022 17:15:25.160 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\manager] de la aplicación web
+07-Aug-2022 17:15:25.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\manager] has finished in [139] ms
+07-Aug-2022 17:15:25.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\ROOT] de la aplicación web
+07-Aug-2022 17:15:25.419 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\webapps\ROOT] has finished in [121] ms
+07-Aug-2022 17:15:25.422 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 17:15:25.552 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6985 ms
+07-Aug-2022 17:23:48.074 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 17:23:53.095 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 17:23:53.106 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 17:23:53.127 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 17:23:56.485 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 17:23:56.497 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 17:35:51.369 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 17:35:51.375 WARNING [http-nio-8080-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [PortafolioSoleCaroBackEnd] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Aug-2022 17:35:51.376 WARNING [http-nio-8080-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PortafolioSoleCaroBackEnd] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2/java.lang.Object.wait(Native Method)
+ java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2/java.lang.Thread.run(Thread.java:833)
+07-Aug-2022 17:35:52.456 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Aug-2022 17:35:54.592 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 17:35:54.600 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:02:49.379 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:02:52.597 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:02:52.605 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:03:54.885 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:03:57.785 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:03:57.785 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:08:31.368 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:08:34.299 INFO [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:08:34.306 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:35:23.035 INFO [http-nio-8080-exec-52] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:35:23.726 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:37:11.144 INFO [http-nio-8080-exec-61] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml]
+07-Aug-2022 18:37:13.952 INFO [http-nio-8080-exec-61] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:37:13.962 INFO [http-nio-8080-exec-61] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Sole\Documents\Portafolio\apache-tomcat-8.5.81\conf\Catalina\localhost\PortafolioSoleCaroBackEnd.xml] has finished in [2.816] ms
+07-Aug-2022 18:37:13.967 INFO [http-nio-8080-exec-57] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PortafolioSoleCaroBackEnd]] after start() had already been called. The second call will be ignored.
+07-Aug-2022 18:37:15.422 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.exceptions.ExceptionFactory].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.exceptions.ExceptionFactory].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1428)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1267)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:628)
+		at com.mysql.cj.protocol.a.NativeProtocol.quit(NativeProtocol.java:1336)
+		at com.mysql.cj.NativeSession.quit(NativeSession.java:149)
+		at com.mysql.cj.jdbc.ConnectionImpl.realClose(ConnectionImpl.java:1721)
+		at com.mysql.cj.jdbc.ConnectionImpl.close(ConnectionImpl.java:713)
+		at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.closeDatasourceConnection(DatabaseAccessor.java:502)
+		at org.eclipse.persistence.internal.databaseaccess.DatasourceAccessor.disconnect(DatasourceAccessor.java:501)
+		at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.disconnect(DatabaseAccessor.java:515)
+		at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.disconnect(DatabaseSessionImpl.java:470)
+		at org.eclipse.persistence.sessions.server.ServerSession.disconnect(ServerSession.java:538)
+		at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.logout(DatabaseSessionImpl.java:1003)
+		at org.eclipse.persistence.sessions.server.ServerSession.logout(ServerSession.java:808)
+		at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.removeSessionFromGlobalSessionManager(EntityManagerSetupImpl.java:597)
+		at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.undeploy(EntityManagerSetupImpl.java:3109)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.close(EntityManagerFactoryDelegate.java:288)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.finalize(EntityManagerFactoryDelegate.java:372)
+		at java.base/java.lang.System$2.invokeFinalize(System.java:2336)
+		at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:96)
+		at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:184)
+07-Aug-2022 18:42:56.178 INFO [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:42:56.203 WARNING [http-nio-8080-exec-57] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [PortafolioSoleCaroBackEnd] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Aug-2022 18:42:56.204 WARNING [http-nio-8080-exec-57] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PortafolioSoleCaroBackEnd] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2/java.lang.Object.wait(Native Method)
+ java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2/java.lang.Thread.run(Thread.java:833)
+07-Aug-2022 18:42:59.302 INFO [http-nio-8080-exec-57] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:42:59.313 INFO [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:42:59.663 INFO [http-nio-8080-exec-62] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:43:00.866 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Aug-2022 18:43:02.624 INFO [http-nio-8080-exec-62] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:43:02.624 INFO [http-nio-8080-exec-62] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:52:48.814 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:52:51.702 INFO [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:52:51.706 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:52:57.067 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:53:00.389 INFO [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:53:00.402 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:53:00.421 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:53:03.163 INFO [http-nio-8080-exec-69] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:53:03.173 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:58:01.762 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:58:01.769 WARNING [http-nio-8080-exec-84] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [PortafolioSoleCaroBackEnd] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Aug-2022 18:58:01.770 WARNING [http-nio-8080-exec-84] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PortafolioSoleCaroBackEnd] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2/java.lang.Object.wait(Native Method)
+ java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2/java.lang.Thread.run(Thread.java:833)
+07-Aug-2022 18:58:04.530 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Aug-2022 18:58:04.906 INFO [http-nio-8080-exec-84] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:58:04.916 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:58:04.928 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:58:07.698 INFO [http-nio-8080-exec-90] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:58:07.712 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 18:58:45.981 INFO [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 18:58:46.004 WARNING [http-nio-8080-exec-85] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [PortafolioSoleCaroBackEnd] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Aug-2022 18:58:46.021 WARNING [http-nio-8080-exec-85] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PortafolioSoleCaroBackEnd] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2/java.lang.Object.wait(Native Method)
+ java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2/java.lang.Thread.run(Thread.java:833)
+07-Aug-2022 18:58:46.742 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+07-Aug-2022 18:58:48.932 INFO [http-nio-8080-exec-85] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 18:58:48.946 INFO [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 19:02:22.373 INFO [http-nio-8080-exec-104] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PortafolioSoleCaroBackEnd]
+07-Aug-2022 19:02:24.912 INFO [http-nio-8080-exec-104] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+07-Aug-2022 19:02:24.924 INFO [http-nio-8080-exec-104] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+07-Aug-2022 20:01:58.002 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+07-Aug-2022 20:01:58.004 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 20:01:58.017 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+07-Aug-2022 20:01:58.034 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [PortafolioSoleCaroBackEnd] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+07-Aug-2022 20:01:58.035 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PortafolioSoleCaroBackEnd] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2/java.lang.Object.wait(Native Method)
+ java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2/java.lang.Thread.run(Thread.java:833)
+07-Aug-2022 20:01:58.057 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2022 20:01:58.071 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
