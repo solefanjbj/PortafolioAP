@@ -18,15 +18,33 @@ public class Persona {
     
     
     private String nombre;
-    private String apellido;
+    private String titulo;
+    private String acercade;
+    private String imagen;
+    private String face;
+    private String twitter;
+    private String instagram;
+    private String linkedin;
+    private String github;
+           
+    
 
     public Persona() {
     }
 
-    public Persona(Long id, String nombre, String apellido) {
+    
+
+    public Persona(Long id, String nombre, String titulo, String acercade, String imagen, String face, String twitter, String instagram, String linkedin, String github) {
         this.id = id;
         this.nombre = nombre;
-        this.apellido = apellido;
+        this.titulo = titulo;
+        this.acercade = acercade;
+        this.imagen = imagen;
+        this.face = face;
+        this.twitter = twitter;
+        this.instagram = instagram;
+        this.linkedin = linkedin;
+        this.github = github;
     }
     
     

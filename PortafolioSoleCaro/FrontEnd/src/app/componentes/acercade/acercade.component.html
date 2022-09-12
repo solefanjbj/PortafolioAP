@@ -1,16 +1,19 @@
 <div class="row">
+    
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <img src="../../../assets/foto.jpg" class="img-fluid" id="fotoperfil">
 
-    </div>
+    </div >
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <h4 id="nombre">Caro Maria Soledad Del Valle</h4>
-        <p id="titulo">Full Stack Developer Jr</p>
+        <h4 id="nombre"> {{persona.nombre}} </h4>
+        <p id="titulo"> {{persona.titulo}} </p>
+        
     </div>
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <span>
             <H1>Acerca de mi</H1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero autem, dolor sit reiciendis aperiam rerum ducimus voluptas quidem, labore, quam magni provident explicabo hic porro expedita iusto! Unde, voluptas doloribus?</p>
+            <p>{{persona.acercade}}</p>
+            
         </span>
     </div>
 </div>
