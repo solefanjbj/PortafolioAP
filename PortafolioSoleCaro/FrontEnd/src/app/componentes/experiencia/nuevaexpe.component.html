@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="crear()" noValidate #f="ngForm">
+                <div class="form-group">
+                    <label for="lugar">Empresa</label>
+                    <input type="text"class="form-control" id="lugar" name="lugar" [(ngModel)]="lugar" required>
+                </div>
+                <div class="form-group">
+                    <label for="descrip">Descripción</label>
+                    <input type="text"class="form-control" id="descrip" name="descrip" [(ngModel)]="descrip" required>
+                </div>
+                <div class="form-group">
+                    <label for="inicio">Inicio de actividad</label>
+                    <input type="text"class="form-control" id="inicio" name="inicio" [(ngModel)]="inicio" required>
+                </div>
+                <div class="form-group">
+                    <label for="fin">Fin de actividad</label>
+                    <input type="text"class="form-control" id="fin" name="fin" [(ngModel)]="fin" required>
+                </div>
+                <button class="btn btn-info" >Agregar</button>
+            </form>
+        </div>
+    </div>
+</div>

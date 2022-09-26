@@ -1,19 +1,33 @@
 <div class="row">
     <h1>Experiencia Laboral</h1>
-    <div class="col-lg-1"></div>
-    <div class="col-lg-11">
-        <ul>
-            <li>
-                <h1>Primer trabajo </h1>-<h3> (year)</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium maiores neque provident iste porro exercitationem sed voluptatem veniam tempore harum deserunt ad est quasi, earum architecto omnis non dicta! Maxime.</p>
-            </li>
-            <li>
-                <h1>Segundo trabajo</h1> - <h3>year</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium maiores neque provident iste porro exercitationem sed voluptatem veniam tempore harum deserunt ad est quasi, earum architecto omnis non dicta! Maxime.</p>
-                
-            </li>
-        </ul>
-
-
+    <div>
+        <button type="button" class="btn btn-dark"routerLink="/nueva-expe">Agregar</button>
     </div>
+    <table class="table">
+        <tbody>
+            <tr *ngFor="let experiencia of expe">
+                <td>{{experiencia.lugar}}</td>
+                <td>{{experiencia.descrip}}</td>
+                
+                <td>
+                    {{experiencia.inicio}}    
+                </td>
+                <td>
+                    {{experiencia.fin}}
+                </td>
+                <td><button class="btn btn-dark" routerLink="/editar-expe"> <i class="bi bi-pencil-fill"></i>modificar</button></td>
+                <td><button class="btn btn-dark"><i class="bi bi-trash"></i>eliminar
+
+                </button>
+                    </td>
+            </tr>
+            <tr *ngFor="let experiencia of expe">
+               
+                </tr>
+
+        </tbody>       
+    </table>
+    
+
+
 </div>

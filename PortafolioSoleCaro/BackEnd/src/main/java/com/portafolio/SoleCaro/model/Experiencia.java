@@ -31,6 +31,8 @@ public class Experiencia {
         this.inicio = inicio;
         this.fin = fin;
     }
+
+   
     
    
 }

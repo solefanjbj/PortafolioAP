@@ -34,7 +34,7 @@ public class ExperienciaService implements IExperienciaService{
     public Experiencia buscarExperiencia(Long id) {
         return expeRepo.findById(id).orElse(null);
     }
-    
+
     
     @Override
     public void editarExperiencia(Experiencia exp) {

@@ -13,7 +13,7 @@ import lombok.Setter;
 public class Persona {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+   /* @GeneratedValue(strategy = GenerationType.AUTO)*/
     private Long id;
     
     

@@ -18,6 +18,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './componentes/login/login.component';
+import { PruebaComponent } from './componentes/prueba/prueba.component';
+import { NuevaexpeComponent } from './componentes/experiencia/nuevaexpe.component';
+import { EditarExpeComponent } from './componentes/experiencia/editar-expe.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { LoginComponent } from './componentes/login/login.component';
     ProyectosComponent,
     FooterComponent,
     PortafolioComponent,
-    LoginComponent
+    LoginComponent,
+    PruebaComponent,
+    NuevaexpeComponent,
+    EditarExpeComponent
     
     
   ],
@@ -42,6 +48,7 @@ import { LoginComponent } from './componentes/login/login.component';
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     ReactiveFormsModule,
+    FormsModule,
     HttpClientModule
     
   ],

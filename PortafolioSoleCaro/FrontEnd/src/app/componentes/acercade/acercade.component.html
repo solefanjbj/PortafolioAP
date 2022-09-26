@@ -1,18 +1,19 @@
-<div class="row">
+<div *ngIf="Persona" class="row">
+    
     
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <img src="../../../assets/foto.jpg" class="img-fluid" id="fotoperfil">
 
     </div >
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <h4 id="nombre"> {{persona.nombre}} </h4>
-        <p id="titulo"> {{persona.titulo}} </p>
+        <h4 id="nombre"> {{Persona.nombre}} </h4>
+        <p id="titulo"> {{Persona.titulo}} </p>
         
     </div>
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <span>
             <H1>Acerca de mi</H1>
-            <p>{{persona.acercade}}</p>
+            <p>{{Persona.acercade}}</p>
             
         </span>
     </div>
