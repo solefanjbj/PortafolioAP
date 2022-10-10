@@ -5,6 +5,8 @@ import com.portafolio.SoleCaro.model.Formacion;
 import com.portafolio.SoleCaro.service.IFormacionService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -38,10 +40,19 @@ public class FormacionController {
         formServ.borrarFormacion(id);
         
     }
-    @PostMapping ("/editar/formacion")
+    /*@PostMapping ("/editar/formacion")
+    public void editarFormacion (@RequestBody Formacion form){
+        formServ.editarFormacion(form);
+    }*/
+    
+    @PostMapping ("/editar/formacion/{id}")
     public void editarFormacion (@RequestBody Formacion form){
         formServ.editarFormacion(form);
     }
    
-    
+    @GetMapping("/ver/formacion/id/{id}")
+    public ResponseEntity<Formacion> getById(@PathVariable("id") Long id){
+        Formacion experiencia = formServ.buscarFormacion(id);
+        return new ResponseEntity(experiencia, HttpStatus.OK);
+    }
 }

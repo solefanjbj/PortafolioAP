@@ -5,6 +5,8 @@ import com.portafolio.SoleCaro.model.Persona;
 import com.portafolio.SoleCaro.service.IPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -47,9 +49,23 @@ public class PersonaController {
     public void editarPersona (@RequestBody Persona pers){
         persoServ.editarPersona(pers);
     }
+    /*
+    @PostMapping ("/ver/persona/id/{id}")
+    public void editarExperiencia (@RequestBody Persona id){
+        persoServ.editarPersona(id);
+    }*/
+    
+   
+    
     @GetMapping("/personas/traer/perfil")
     public Persona findPersona(){
         return persoServ.findPersona((long)1);
+    }
+    
+    @GetMapping("/ver/persona/id/{id}")
+    public ResponseEntity<Persona> getById(@PathVariable("id") Long id){
+        Persona persona = persoServ.buscarPersona(id);
+        return new ResponseEntity(persona, HttpStatus.OK);
     }
     
    

@@ -1,0 +1,26 @@
+<p>nuevo-proyecto works!</p>
+<div class="container">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="crear()" noValidate #f="ngForm">
+                <div class="form-group">
+                    <label for="Titulo">TITULO</label>
+                    <input type="text"class="form-control" id="titulo" name="titulo" [(ngModel)]="titulo" required>
+                </div>
+                <div class="form-group">
+                    <label for="descrip">DESCRIPCION</label>
+                    <input type="text"class="form-control" id="descrip" name="descrip" [(ngModel)]="descrip" required>
+                </div>
+                <div class="form-group">
+                    <label for="Imagen">IMAGEN</label>
+                    <input type="text"class="form-control" id="imagen" name="imagen" [(ngModel)]="imagen" required>
+                </div>
+                <div class="form-group">
+                    <label for="Link">LINK</label>
+                    <input type="text"class="form-control" id="link" name="link" [(ngModel)]="link" required>
+                </div>
+                <button class="btn btn-info" >Agregar</button>
+            </form>
+        </div>
+    </div>
+</div>

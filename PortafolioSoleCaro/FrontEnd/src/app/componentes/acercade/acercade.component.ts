@@ -36,4 +36,4 @@ export class AcercadeComponent implements OnInit {
   
 
 }
-console.log(Persona);
+

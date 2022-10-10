@@ -21,6 +21,12 @@ import { LoginComponent } from './componentes/login/login.component';
 import { PruebaComponent } from './componentes/prueba/prueba.component';
 import { NuevaexpeComponent } from './componentes/experiencia/nuevaexpe.component';
 import { EditarExpeComponent } from './componentes/experiencia/editar-expe.component';
+import { ModAcercadeComponent } from './componentes/acercade/mod-acercade.component';
+import { EditarFormaComponent } from './componentes/formacion/editar-forma.component';
+import { NuevaFormComponent } from './componentes/formacion/nueva-form.component';
+import { NuevoProyectoComponent } from './componentes/proyectos/nuevo-proyecto.component';
+import { EditarProyectoComponent } from './componentes/proyectos/editar-proyecto.component';
+
 
 @NgModule({
   declarations: [
@@ -39,7 +45,13 @@ import { EditarExpeComponent } from './componentes/experiencia/editar-expe.compo
     LoginComponent,
     PruebaComponent,
     NuevaexpeComponent,
-    EditarExpeComponent
+    EditarExpeComponent,
+    ModAcercadeComponent,
+    NuevaFormComponent,
+    EditarFormaComponent,
+    NuevoProyectoComponent,
+    EditarProyectoComponent,
+  
     
     
   ],

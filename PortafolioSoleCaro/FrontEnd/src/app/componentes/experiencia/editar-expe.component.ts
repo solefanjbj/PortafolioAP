@@ -9,13 +9,14 @@ import { ExperienciaService } from 'src/app/servicios/experiencia.service';
   styleUrls: ['./editar-expe.component.css']
 })
 export class EditarExpeComponent implements OnInit {
-  expelab: Experiencia= null;
+  
+  expelab: Experiencia=null ;
 
   constructor(private experiencia: ExperienciaService,private activatedRouter: ActivatedRoute, private router: Router ) { }
 
   ngOnInit(): void {
-    const id = this.activatedRouter.snapshot.params['idexp'];
-    this.experiencia.detail(id).subscribe(
+    const id = this.activatedRouter.snapshot.params['id'];
+      this.experiencia.detail(id).subscribe(
       data =>{
         this.expelab = data;
       }, err =>{
@@ -26,7 +27,7 @@ export class EditarExpeComponent implements OnInit {
   }
 
   modificar(): void{
-    const id = this.activatedRouter.snapshot.params['idexp'];
+    const id = this.activatedRouter.snapshot.params['id'];
     this.experiencia.update(id, this.expelab).subscribe(
       data => {
         this.router.navigate(['']);

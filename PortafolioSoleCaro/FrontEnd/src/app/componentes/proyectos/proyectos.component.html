@@ -1,23 +1,23 @@
 <div class="row">
-    <h1>Proyectos Realizados</h1>
+    <div>
+    <h1>Proyectos Realizados</h1> <button type="button" class="btn btn-dark"routerLink="/nuevo-proyecto">Agregar</button> </div>
     <p></p>
 
+
+    <tr *ngFor="let proyectos of proy"><td>
+        <div class="row">
+
         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 imagen">
-            <img src="../../../assets/encriptador.jpg" class="img-fluid img-proyecto text-center">
+           <a href="{{proyectos.link}}"> <img src="{{proyectos.imagen}}"  class="img-fluid img-proyecto text-center" ></a>
         </div>
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 descripcion">
-            <h3>Encriptador de mensajes</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sunt sed suscipit eaque accusamus nulla voluptas culpa, sit reprehenderit beatae accusantium eius cumque ut libero aliquam magni impedit! Quia, placeat.</p>
+            <h3>{{proyectos.titulo}}</h3> <button class="btn btn-dark" routerLink="/editar-proyecto/{{proyectos.id}}"> <i class="bi bi-pencil-fill"></i>modificar</button> <button class="btn btn-dark"(click)= 'eliminar(proyectos.id)'><i class="bi bi-trash"></i>eliminar</button>
+            <p>{{proyectos.descrip}}</p>
+        </div>
         </div>
         
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 imagen">
-            <img src="../../../assets/pngegg.png" class="img-fluid img-proyecto text-center">
-        </div>
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 descripcion">
-            <h3>Encriptador de mensajes</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sunt sed suscipit eaque accusamus nulla voluptas culpa, sit reprehenderit beatae accusantium eius cumque ut libero aliquam magni impedit! Quia, placeat.</p>
-        </div>
-        
+       
+    </td></tr>
 
 
 

@@ -1,0 +1,47 @@
+<p>mod-acercade works!</p>
+<div class="container" *ngIf="pers">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="modificar()" noValidate #f="ngForm">
+                <div class="form-group">
+                    <label for="lugar">Nombre</label>
+                    <input type="text"class="form-control" id="nombre" name="nombre" [(ngModel)]="pers.nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="descrip">Acercade</label>
+                    <input type="text"class="form-control" id="acercade" name="acercade" [(ngModel)]="pers.acercade" required>
+                </div>
+                <div class="form-group">
+                    <label for="inicio">Titulo</label>
+                    <input type="text"class="form-control" id="titulo" name="titulo" [(ngModel)]="pers.titulo" required>
+                </div>
+                <div class="form-group">
+                    <label for="fin">Foto</label>
+                    <input type="text"class="form-control" id="imagen" name="imagen" [(ngModel)]="pers.imagen" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="fin">Facebook</label>
+                    <input type="text"class="form-control" id="face" name="face" [(ngModel)]="pers.face" required>
+                </div>
+                <div class="form-group">
+                    <label for="fin">Twitter</label>
+                    <input type="text"class="form-control" id="twitter" name="twitter" [(ngModel)]="pers.twitter" required>
+                </div>
+                <div class="form-group">
+                    <label for="fin">Instagram</label>
+                    <input type="text"class="form-control" id="instagram" name="instagram" [(ngModel)]="pers.instagram" required>
+                </div>
+                <div class="form-group">
+                    <label for="fin">GitHub</label>
+                    <input type="text"class="form-control" id="github" name="github" [(ngModel)]="pers.github" required>
+                </div>
+                <div class="form-group">
+                    <label for="fin">Linkedin</label>
+                    <input type="text"class="form-control" id="linkedin" name="linkedin" [(ngModel)]="pers.linkedin" required>
+                </div>
+                <button class="btn btn-info" >Modificar</button> <button class="btn btn-info"routerLink="/">Cancelar</button>
+            </form>
+        </div>
+    </div>
+</div>

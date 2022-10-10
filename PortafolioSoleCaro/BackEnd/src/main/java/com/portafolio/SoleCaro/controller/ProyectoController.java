@@ -6,6 +6,8 @@ import com.portafolio.SoleCaro.model.Proyecto;
 import com.portafolio.SoleCaro.service.IProyectoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -42,6 +44,16 @@ public class ProyectoController {
     @PostMapping ("/editar/Proyecto")
     public void editarProyecto (@RequestBody Proyecto pro){
         proyeServ.editarProyecto(pro);
+    }
+    @PostMapping ("/editar/proyecto/{id}")
+    public void editarExperiencia (@RequestBody Proyecto pro){
+        proyeServ.editarProyecto(pro);
+    }
+    
+    @GetMapping("/ver/proyecto/id/{id}")
+    public ResponseEntity<Proyecto> getById(@PathVariable("id") Long id){
+        Proyecto proyecto = proyeServ.buscarProyecto(id);
+        return new ResponseEntity(proyecto, HttpStatus.OK);
     }
     
     

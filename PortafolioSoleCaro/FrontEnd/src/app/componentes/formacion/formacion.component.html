@@ -1,18 +1,18 @@
 <div class="row">
-    <h1>Formación</h1>
-    <div class="col-lg-1"></div>
+   <div>
+    <h1>Formación</h1> <button type="button" class="btn btn-dark"routerLink="/nueva-form">Agregar</button>
+
+   </div>     <div class="col-lg-1"></div>
     <div class="col-lg-11">
+        <tr *ngFor="let formacion of form"><td>
         <ul>
             <li>
-                <h1>Primer estudio</h1>-<h3> (year)</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium maiores neque provident iste porro exercitationem sed voluptatem veniam tempore harum deserunt ad est quasi, earum architecto omnis non dicta! Maxime.</p>
+                <h1>{{formacion.titulo}}</h1>-<h3> {{formacion.inicio}}<h1> - </h1>{{formacion.fin}}</h3>  <button class="btn btn-dark" routerLink="/editar-forma/{{formacion.idform}}"> <i class="bi bi-pencil-fill"></i>modificar</button> <button class="btn btn-dark"(click)= 'eliminar(formacion.idform)'><i class="bi bi-trash"></i>eliminar</button>
+                <p>{{formacion.descrip}}</p>
             </li>
-            <li>
-                <h1>Segundo estudio</h1> - <h3>year</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium maiores neque provident iste porro exercitationem sed voluptatem veniam tempore harum deserunt ad est quasi, earum architecto omnis non dicta! Maxime.</p>
-                
-            </li>
+           
         </ul>
+    </td></tr>
 
 
     </div>

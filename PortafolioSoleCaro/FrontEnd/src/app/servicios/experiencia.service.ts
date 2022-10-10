@@ -12,7 +12,6 @@ export class ExperienciaService {
   Url = 'http://localhost:8080';
   httpClient: any;
   
-
   constructor(private http: HttpClient) { }
 
   public lista(): Observable<Experiencia[]>{
@@ -26,7 +25,7 @@ export class ExperienciaService {
     return this.http.post<any>(this.Url+ `/new/experiencia`,experiencia);
   }
   public update(Idexp: number, experiencia: Experiencia): Observable<any>{
-    return this.http.put<any>(this.Url+ `/editar/experiencia/${Idexp}`,experiencia);
+    return this.http.post<any>(this.Url+ `/editar/experiencia/${Idexp}`,experiencia);
   }
   public borrar(Idexp: number): Observable<any>{
     return this.http.delete<any>(this.Url+ `/deleteexperiencia/${Idexp}`);

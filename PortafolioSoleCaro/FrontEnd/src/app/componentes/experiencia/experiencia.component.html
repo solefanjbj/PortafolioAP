@@ -1,33 +1,30 @@
 <div class="row">
-    <h1>Experiencia Laboral</h1>
     <div>
-        <button type="button" class="btn btn-dark"routerLink="/nueva-expe">Agregar</button>
+        <h1>Experiencia Laboral   </h1> <button type="button" class="btn btn-dark"routerLink="/nueva-expe">Agregar</button>
+   
+
     </div>
-    <table class="table">
-        <tbody>
-            <tr *ngFor="let experiencia of expe">
-                <td>{{experiencia.lugar}}</td>
-                <td>{{experiencia.descrip}}</td>
-                
-                <td>
-                    {{experiencia.inicio}}    
-                </td>
-                <td>
-                    {{experiencia.fin}}
-                </td>
-                <td><button class="btn btn-dark" routerLink="/editar-expe"> <i class="bi bi-pencil-fill"></i>modificar</button></td>
-                <td><button class="btn btn-dark"><i class="bi bi-trash"></i>eliminar
-
-                </button>
-                    </td>
-            </tr>
-            <tr *ngFor="let experiencia of expe">
-               
-                </tr>
-
-        </tbody>       
-    </table>
     
 
+    
+    <div class="col-lg-1"></div>
+    <div class="col-lg-11">
+    <tr *ngFor="let experiencia of expe"><td>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-11">
+            <ul>
+               <li>
+                   <h1>{{experiencia.lugar}}</h1>-<h3> {{experiencia.inicio}}  <h1> - </h1>{{experiencia.fin}}</h3> <button class="btn btn-dark" routerLink="/editar-expe/{{experiencia.idexp}}"> <i class="bi bi-pencil-fill"></i>modificar</button> <button class="btn btn-dark"(click)= 'eliminar(experiencia.idexp)'><i class="bi bi-trash"></i>eliminar</button>
+                  <p>{{experiencia.descrip}}</p>
+                </li>
+                
+            </ul>
 
+
+        </div>
+
+
+    </td></tr></div>
+    
+    
 </div>

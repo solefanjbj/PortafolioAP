@@ -6,9 +6,11 @@ import com.portafolio.SoleCaro.repository.ExperienciaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service
+@Transactional
 public class ExperienciaService implements IExperienciaService{
     
     @Autowired
@@ -40,6 +42,13 @@ public class ExperienciaService implements IExperienciaService{
     public void editarExperiencia(Experiencia exp) {
         expeRepo.save(exp);
     }
+/*
+    @Override
+    public void editarExperienciaId(Long id) {
+        expeRepo.save(exp);
+    }
+*/
 
+  
     
 }

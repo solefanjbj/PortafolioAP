@@ -1,0 +1,26 @@
+<div class="container" *ngIf="forma">
+    <div class="row">
+        <div>
+            <form (ngSubmit) = "modificar()" noValidate #f="ngForm">
+                <div class="form-group">
+                    <label for="titulo">Titulo</label>
+                    <input type="text"class="form-control" id="titulo" name="titulo" [(ngModel)]="forma.titulo" required>
+                </div>
+                <div class="form-group">
+                    <label for="descrip">Descripción</label>
+                    <input type="text"class="form-control" id="descrip" name="descrip" [(ngModel)]='forma.descrip' required>
+                </div>
+                <div class="form-group">
+                    <label for="inicio">Inicio de actividad</label>
+                    <input type="text"class="form-control" id="inicio" name="inicio" [(ngModel)]="forma.inicio" required>
+                </div>
+                <div class="form-group">
+                    <label for="fin">Fin de actividad</label>
+                    <input type="text"class="form-control" id="fin" name="fin" [(ngModel)]="forma.fin" required>
+                </div>
+                <button class="btn btn-info" >Modificar</button><button class="btn btn-info"routerLink="/">Cancelar</button>
+            </form>
+        </div>
+    </div>
+</div>
+

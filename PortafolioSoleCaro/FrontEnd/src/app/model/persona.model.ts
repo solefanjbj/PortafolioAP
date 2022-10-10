@@ -1,17 +1,4 @@
-/*export interface Persona{
-    id: number;
-    nombre: String;
-    titulo: String;
-    acercade: String;
-    imagen: String;
-    face: String;
-    twitter: String;
-    instagram: String;
-    linkedin: String;
-    github: String;
-}
 
-*/
 
  export class Persona{
     id?: number;
