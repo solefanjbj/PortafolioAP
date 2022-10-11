@@ -19,3 +19,8 @@
     margin-left: 10%;
     
 }
+.btn{
+    display: flex;  
+    margin-right: 5px;
+    float: right;
+}

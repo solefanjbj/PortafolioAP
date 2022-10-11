@@ -26,6 +26,9 @@ import { EditarFormaComponent } from './componentes/formacion/editar-forma.compo
 import { NuevaFormComponent } from './componentes/formacion/nueva-form.component';
 import { NuevoProyectoComponent } from './componentes/proyectos/nuevo-proyecto.component';
 import { EditarProyectoComponent } from './componentes/proyectos/editar-proyecto.component';
+import { NuevoSkillComponent } from './componentes/hy-sskills/nuevo-skill.component';
+import { EditarSkillComponent } from './componentes/hy-sskills/editar-skill.component';
+
 
 
 @NgModule({
@@ -51,6 +54,9 @@ import { EditarProyectoComponent } from './componentes/proyectos/editar-proyecto
     EditarFormaComponent,
     NuevoProyectoComponent,
     EditarProyectoComponent,
+    NuevoSkillComponent,
+    EditarSkillComponent,
+ 
   
     
     

@@ -4,3 +4,16 @@ div{
     padding: 20px;
     color: #546E7A;
 }
+
+#agregar{
+    display: flex;  
+    margin-right: 5px;
+    float: right;
+}
+
+#boton{
+    display: flex;    
+    margin-top: -10%;
+    
+        
+}

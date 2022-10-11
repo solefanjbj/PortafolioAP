@@ -44,5 +44,10 @@ div{
         
         font-weight: bolder;
     }
+    .btn btn-dark{
+        display: flex;  
+        margin-right: 5px;
+        float: right;
+    }
 
 }

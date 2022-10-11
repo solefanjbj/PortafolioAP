@@ -5,6 +5,8 @@ import { EditarExpeComponent } from './componentes/experiencia/editar-expe.compo
 import { NuevaexpeComponent } from './componentes/experiencia/nuevaexpe.component';
 import { EditarFormaComponent } from './componentes/formacion/editar-forma.component';
 import { NuevaFormComponent } from './componentes/formacion/nueva-form.component';
+import { EditarSkillComponent } from './componentes/hy-sskills/editar-skill.component';
+import { NuevoSkillComponent } from './componentes/hy-sskills/nuevo-skill.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { PortafolioComponent } from './componentes/portafolio/portafolio.component';
 import { EditarProyectoComponent } from './componentes/proyectos/editar-proyecto.component';
@@ -22,7 +24,10 @@ const routes: Routes = [
   {path: 'nueva-form', component:NuevaFormComponent},
   {path: 'editar-forma/:id', component:EditarFormaComponent},
   {path: 'nuevo-proyecto', component:NuevoProyectoComponent},
-  {path: 'editar-proyecto/:id', component:EditarProyectoComponent}
+  {path: 'editar-proyecto/:id', component:EditarProyectoComponent},
+  {path: 'nuevo-skill', component:NuevoSkillComponent},
+  {path: 'editar-skill/:id', component:EditarSkillComponent}
+
   
   
   

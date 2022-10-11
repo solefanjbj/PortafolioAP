@@ -7,7 +7,7 @@
         <tr *ngFor="let formacion of form"><td>
         <ul>
             <li>
-                <h1>{{formacion.titulo}}</h1>-<h3> {{formacion.inicio}}<h1> - </h1>{{formacion.fin}}</h3>  <button class="btn btn-dark" routerLink="/editar-forma/{{formacion.idform}}"> <i class="bi bi-pencil-fill"></i>modificar</button> <button class="btn btn-dark"(click)= 'eliminar(formacion.idform)'><i class="bi bi-trash"></i>eliminar</button>
+                <h1>{{formacion.titulo}}</h1> - <h3> {{formacion.inicio}}<h1> - </h1>{{formacion.fin}}</h3>  <button class="btn btn-dark" routerLink="/editar-forma/{{formacion.idform}}"> <i class="bi bi-pencil-fill"></i>modificar</button> <button class="btn btn-dark"(click)= 'eliminar(formacion.idform)'><i class="bi bi-trash"></i>eliminar</button>
                 <p>{{formacion.descrip}}</p>
             </li>
            

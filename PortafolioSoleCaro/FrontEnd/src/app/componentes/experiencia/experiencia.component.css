@@ -9,3 +9,8 @@ div{
 h1, h3{
     display: inline;
 }
+.btn{
+    display: flex;  
+    margin-right: 5px;
+    float: right;
+}
