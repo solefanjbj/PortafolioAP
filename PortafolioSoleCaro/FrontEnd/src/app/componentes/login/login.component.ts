@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Route } from '@angular/router';
+import { Router } from '@angular/router';
 import { AuthService } from 'src/app/servicios/auth.service';
 import { TokenService } from 'src/app/servicios/token.service';
+import { LoginUsuario } from 'src/app/model/login-usuario.module';
 
 @Component({
   selector: 'app-login',
@@ -11,20 +12,45 @@ import { TokenService } from 'src/app/servicios/token.service';
 export class LoginComponent implements OnInit {
   isLogged = false;
   isLogginFail = false;
-  loginUsuario!: LoginUsusario;
-  nombreUsusario! : string;
+  loginUsuario!: LoginUsuario;
+  nombreUsuario! : string;
+  email! : string;
   password!: string;
-  roles: string[]=[];
-  errMsj!: string;
+  /**roles: string[]=[];
+  errMsj!: string;*/
 
-  constructor(private tokenService: TokenService, private authService: AuthService, private route: Route) { }
+  constructor(private tokenService: TokenService, private authService: AuthService, private router: Router) { }
 
   ngOnInit(): void {
     if(this.tokenService.getToken()){
       this.isLogged = true;
       this.isLogginFail = false;
-      this.roles=this.tokenService.getAuthorities();
+      /*this.roles=this.tokenService.getAuthorities();*/
+      console.log(this.isLogged);
     }
+  }
+  onLogin(): void{
+    this.loginUsuario = new LoginUsuario(this.email, this.password); 
+    this.authService.login(this.loginUsuario).subscribe(data=>{
+        this.isLogged =true;
+        this.isLogginFail= false;
+        this.tokenService.setToken(data.accesToken);
+        this.tokenService.setUserName(data.email);
+        /*this.tokenService.setAuthorities(data.authorities);
+        this.roles=data.authorities;*/
+        this.router.navigate([''])
+        console.log(data);
+        alert('Bienvenido');
+      }, err=>{
+        this.isLogged=false;
+        this.isLogginFail=true;
+        alert('Fallo al iniciar sesción');
+        /*this.errMsj =err.error.mensaje;*/
+        this.router.navigate(['']);
+        
+      }
+      )
+
   }
 
 }

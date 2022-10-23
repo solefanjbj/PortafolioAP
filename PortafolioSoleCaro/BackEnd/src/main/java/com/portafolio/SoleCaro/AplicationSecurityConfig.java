@@ -1,4 +1,3 @@
-
 package com.portafolio.SoleCaro;
 
 import com.portafolio.SoleCaro.repository.UserRepository;
@@ -28,8 +27,7 @@ public class AplicationSecurityConfig extends WebSecurityConfigurerAdapter  {
     
     @Bean
     PasswordEncoder passwordEncoder(){
-        return new BCryptPasswordEncoder();
-        
+        return new BCryptPasswordEncoder();        
     }
     
     @Override
@@ -57,4 +55,16 @@ public class AplicationSecurityConfig extends WebSecurityConfigurerAdapter  {
         http.addFilterBefore(jwtTokenFilter, UsernamePasswordAuthenticationFilter.class);
     }
     
+    /**@Override
+    protected void configure(HttpSecurity http) throws Exception{
+       http.cors().and().csrf().disable()
+               .authorizeRequests().antMatchers("/api/**")
+               .permitAll()
+               .anyRequest()
+               .authenticated()
+               .and()
+               .httpBasic();
+        http.addFilterBefore(jwtTokenFilter, UsernamePasswordAuthenticationFilter.class);
+    }
+    **/
 }
