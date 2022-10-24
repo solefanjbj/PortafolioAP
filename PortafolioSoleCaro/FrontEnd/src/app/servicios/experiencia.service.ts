@@ -9,7 +9,7 @@ import { Experiencia } from '../model/experiencia';
 })
 export class ExperienciaService {
   private apiServerUrl=environment.apiBaseUrl;
-  Url = 'http://localhost:8080';
+  Url = 'http://localhost:8080/api';
   httpClient: any;
   
   constructor(private http: HttpClient) { }

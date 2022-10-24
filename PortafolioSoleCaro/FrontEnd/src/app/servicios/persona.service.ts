@@ -11,7 +11,7 @@ import { Persona } from '../model/persona.model';
 })
 export class PersonaService {
   private apiServerUrl=environment.apiBaseUrl;
-  Url = 'http://localhost:8080';
+  Url = 'http://localhost:8080/api';
   httpClient: any;
   
  

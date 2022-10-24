@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Persona } from 'src/app/model/persona.model';
 import { PersonaService } from 'src/app/servicios/persona.service';
+import { TokenService } from 'src/app/servicios/token.service';
 
 @Component({
   selector: 'app-mod-acercade',
@@ -10,11 +11,22 @@ import { PersonaService } from 'src/app/servicios/persona.service';
 })
 export class ModAcercadeComponent implements OnInit {
 
+  isLogged= false;
+
   pers: Persona=null ;
 
-  constructor(private persona: PersonaService,private activatedRouter: ActivatedRoute, private router: Router ) { }
+  constructor(private persona: PersonaService,private activatedRouter: ActivatedRoute, private router: Router, private tokenService: TokenService) { }
 
   ngOnInit(): void {
+
+    if(this.tokenService.getToken()){
+      this.isLogged=true;
+      
+      console.log(this.isLogged); 
+  
+    }else{
+      this.isLogged=false;
+    }
 
     const id = this.activatedRouter.snapshot.params['id'];
       this.persona.detail(1).subscribe(

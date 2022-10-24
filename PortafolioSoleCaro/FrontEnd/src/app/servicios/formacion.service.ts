@@ -9,7 +9,7 @@ import { Formacion } from '../model/formacion.model';
 })
 export class FormacionService {
   private apiServerUrl=environment.apiBaseUrl;
-  Url = 'http://localhost:8080';
+  Url = 'http://localhost:8080/api';
   httpClient: any;
 
   constructor(private http: HttpClient) { }

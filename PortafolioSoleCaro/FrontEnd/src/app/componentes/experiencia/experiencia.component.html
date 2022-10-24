@@ -14,7 +14,7 @@
         <div class="col-lg-11">
             <ul>
                <li>
-                   <h1>{{experiencia.lugar}}</h1>-<h3> {{experiencia.inicio}}  <h1> - </h1>{{experiencia.fin}}</h3> <button class="btn btn-dark" *ngIf="isLogged" routerLink="/editar-expe/{{experiencia.idexp}}"> <i class="bi bi-pencil-fill"></i>modificar</button> <button class="btn btn-dark"(click)= 'eliminar(experiencia.idexp)'><i class="bi bi-trash"></i>eliminar</button>
+                   <h1>{{experiencia.lugar}}</h1>-<h3> {{experiencia.inicio}}  <h1> - </h1>{{experiencia.fin}}</h3> <button class="btn btn-dark" *ngIf="isLogged" routerLink="/editar-expe/{{experiencia.idexp}}"> <i class="bi bi-pencil-fill"></i>modificar</button> <button class="btn btn-dark"(click)= 'eliminar(experiencia.idexp)' *ngIf="isLogged"><i class="bi bi-trash"></i>eliminar</button>
                   <p>{{experiencia.descrip}}</p>
                 </li>
                 

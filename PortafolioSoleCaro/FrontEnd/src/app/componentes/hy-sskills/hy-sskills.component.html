@@ -1,7 +1,7 @@
 
 <div class="row">
     
-    <div><h1>Hard & Soft Skills</h1> <p id="agregar"><button type="button" class="btn btn-dark"routerLink="/nuevo-skill">Agregar</button></p></div>
+    <div><h1>Hard & Soft Skills</h1> <p id="agregar"><button type="button" *ngIf="isLogged" class="btn btn-dark"routerLink="/nuevo-skill">Agregar</button></p></div>
     
     <div *ngFor="let skill of skills" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
         <circle-progress  
@@ -20,7 +20,7 @@
             
         ></circle-progress>
         <tr id="boton">
-            <button class="btn btn-dark" routerLink="/editar-skill/{{skill.id}}"> <i class="bi bi-pencil-fill" ></i></button> <button class="btn btn-dark"(click)= 'eliminar(skill.id)'><i class="bi bi-trash"></i></button>
+            <button class="btn btn-dark" *ngIf="isLogged" routerLink="/editar-skill/{{skill.id}}"> <i class="bi bi-pencil-fill" ></i></button> <button class="btn btn-dark" *ngIf="isLogged"(click)= 'eliminar(skill.id)'><i class="bi bi-trash"></i></button>
         </tr>
              
 

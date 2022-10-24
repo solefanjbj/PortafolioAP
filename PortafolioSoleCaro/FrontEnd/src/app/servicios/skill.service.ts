@@ -9,7 +9,7 @@ import { Skill } from '../model/skill.model';
 })
 export class SkillService {
   private apiServerUrl=environment.apiBaseUrl;
-  Url = 'http://localhost:8080';
+  Url = 'http://localhost:8080/api';
   httpClient: any;
 
   constructor(private http: HttpClient) { }

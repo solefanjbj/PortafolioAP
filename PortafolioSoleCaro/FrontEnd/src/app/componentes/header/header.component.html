@@ -9,7 +9,8 @@
             <a href="{{Persona.instagram}}"><img src="../../../assets/instagram.png" id="instagram"></a>
             <a href="{{Persona.linkedin}}"><img src="../../../assets/linkedin.png" id="linkedin"></a>
             <a href="{{Persona.github}}"><img src="../../../assets/github.png" id="github"></a>
-            <a href="/login"><button type="button" class="btn btn-outline-dark" >Login</button></a>
+            <a href="/login"><button type="button" *ngIf="!isLogged" class="btn btn-outline-dark" >Login</button></a>
+            <a href=""><button type="button" *ngIf="isLogged" (click)="onLogOut()" class="btn btn-outline-dark" >Logout</button></a>
         </div>
         
         

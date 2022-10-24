@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Formacion } from 'src/app/model/formacion.model';
 import { FormacionService } from 'src/app/servicios/formacion.service';
+import { TokenService } from 'src/app/servicios/token.service';
 
 @Component({
   selector: 'app-formacion',
@@ -8,14 +9,20 @@ import { FormacionService } from 'src/app/servicios/formacion.service';
   styleUrls: ['./formacion.component.css']
 })
 export class FormacionComponent implements OnInit {
+  isLogged = false;
 
   form: Formacion[] =[];
 
-  constructor(public formacionService: FormacionService) { }
+  constructor(public formacionService: FormacionService,private tokenService: TokenService,) { }
 
   ngOnInit(): void {
 
     this.cargarFormacion();
+    if (this.tokenService.getToken()) {
+      this.isLogged = true;
+    } else {
+      this.isLogged = false;
+    }
   }
 
   cargarFormacion():void{
