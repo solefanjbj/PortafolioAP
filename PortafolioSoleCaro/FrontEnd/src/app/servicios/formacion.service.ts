@@ -8,8 +8,8 @@ import { Formacion } from '../model/formacion.model';
   providedIn: 'root'
 })
 export class FormacionService {
-  private apiServerUrl=environment.apiBaseUrl;
-  Url = 'http://localhost:8080/api';
+  //private apiServerUrl=environment.apiBaseUrl;
+  Url = 'https://backendportafoliosole.herokuapp.com/api';
   httpClient: any;
 
   constructor(private http: HttpClient) { }

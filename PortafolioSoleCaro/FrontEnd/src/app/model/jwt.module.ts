@@ -2,8 +2,7 @@
 export class JwtModule { 
 
   token!: string;
-  type!: string;
- /* nombreUsuario!: string;*/
+  type!: string; 
   email!: string;
   authorities!: string[];
 }

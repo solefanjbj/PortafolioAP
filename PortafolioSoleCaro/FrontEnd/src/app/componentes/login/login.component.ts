@@ -16,16 +16,14 @@ export class LoginComponent implements OnInit {
   nombreUsuario! : string;
   email! : string;
   password!: string;
-  /**roles: string[]=[];
-  errMsj!: string;*/
+  
 
   constructor(private tokenService: TokenService, private authService: AuthService, private router: Router) { }
 
   ngOnInit(): void {
     if(this.tokenService.getToken()){
       this.isLogged = true;
-      this.isLogginFail = false;
-      /*this.roles=this.tokenService.getAuthorities();*/
+      this.isLogginFail = false;      
       console.log(this.isLogged);
     }
   }
@@ -35,17 +33,14 @@ export class LoginComponent implements OnInit {
         this.isLogged =true;
         this.isLogginFail= false;
         this.tokenService.setToken(data.accesToken);
-        this.tokenService.setUserName(data.email);
-        /*this.tokenService.setAuthorities(data.authorities);
-        this.roles=data.authorities;*/
+        this.tokenService.setUserName(data.email);        
         this.router.navigate([''])
         console.log(data);
         alert('Bienvenido');
       }, err=>{
         this.isLogged=false;
         this.isLogginFail=true;
-        alert('Fallo al iniciar sesción');
-        /*this.errMsj =err.error.mensaje;*/
+        alert('Fallo al iniciar sesción');        
         this.router.navigate(['']);
         
       }

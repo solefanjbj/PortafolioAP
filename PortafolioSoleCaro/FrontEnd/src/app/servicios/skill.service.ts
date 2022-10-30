@@ -8,8 +8,8 @@ import { Skill } from '../model/skill.model';
   providedIn: 'root'
 })
 export class SkillService {
-  private apiServerUrl=environment.apiBaseUrl;
-  Url = 'http://localhost:8080/api';
+  //private apiServerUrl=environment.apiBaseUrl;
+  Url = 'https://backendportafoliosole.herokuapp.com/api';
   httpClient: any;
 
   constructor(private http: HttpClient) { }

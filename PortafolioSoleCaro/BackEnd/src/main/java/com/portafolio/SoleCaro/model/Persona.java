@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,13 +13,13 @@ import lombok.Setter;
 @Entity
 public class Persona {
     
-    @Id
-   /* @GeneratedValue(strategy = GenerationType.AUTO)*/
+    @Id   
     private Long id;
     
     
     private String nombre;
     private String titulo;
+    @Size(min = 1, max=1000)
     private String acercade;
     private String imagen;
     private String face;

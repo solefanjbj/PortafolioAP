@@ -22,7 +22,8 @@ import org.springframework.web.bind.annotation.RestController;
 
  
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+
+@CrossOrigin(origins = "https://frontportafoliosole.web.app")
 public class AuthApi {
     @Autowired
     AuthenticationManager authManager;

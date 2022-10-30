@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Skill {\n  constructor(nombre, porcentaje) {\n    this.nombre = nombre;\n    this.porcentaje = porcentaje;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

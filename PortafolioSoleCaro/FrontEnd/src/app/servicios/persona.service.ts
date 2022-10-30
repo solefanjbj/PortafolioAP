@@ -10,8 +10,8 @@ import { Persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  private apiServerUrl=environment.apiBaseUrl;
-  Url = 'http://localhost:8080/api';
+  //private apiServerUrl=environment.apiBaseUrl;
+  Url = 'https://backendportafoliosole.herokuapp.com/api';
   httpClient: any;
   
  

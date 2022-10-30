@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Experiencia {\n  constructor(lugar, descrip, inicio, fin) {\n    this.lugar = lugar;\n    this.descrip = descrip;\n    this.inicio = inicio;\n    this.fin = fin;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

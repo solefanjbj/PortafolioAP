@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Formacion {\n  constructor(titulo, descrip, inicio, fin) {\n    this.titulo = titulo;\n    this.descrip = descrip;\n    this.inicio = inicio;\n    this.fin = fin;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

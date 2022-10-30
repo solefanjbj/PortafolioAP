@@ -2,10 +2,9 @@
 export class JwtDto { 
 
   accesToken!: string;
-  type!: string;
-  /*nombreUsuario!: string;*/
+  type!: string;  
   email!: string;
-  /*authorities!: string[];*/
+  
 }
 
 

@@ -1,4 +1,4 @@
-<p>editar-proyecto works!</p>
+
 <div class="container" *ngIf="proye">
     <div class="row">
         <div>
@@ -19,6 +19,7 @@
                     <label for="link">Link Proyecto</label>
                     <input type="text"class="form-control" id="link" name="link" [(ngModel)]="proye.link" required>
                 </div>
+                <p></p>
                 <button class="btn btn-info" >Modificar</button><button class="btn btn-info"routerLink="/">Cancelar</button>
             </form>
         </div>

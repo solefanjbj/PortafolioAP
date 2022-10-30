@@ -4,10 +4,7 @@ package com.portafolio.SoleCaro.security.jwt;
 import io.jsonwebtoken.Jwts;
 import com.portafolio.SoleCaro.model.User;
 import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.Jws;
-import io.jsonwebtoken.JwtParser;
 import io.jsonwebtoken.MalformedJwtException;
-import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.SignatureException;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.UnsupportedJwtException;
@@ -15,7 +12,6 @@ import java.util.Date;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.security.oauth2.resource.OAuth2ResourceServerProperties.Jwt;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -28,7 +24,7 @@ public class JwtTokenUtil {
     public String generatedAccessToken(User user){
         return Jwts.builder()
                 .setSubject(user.getId()+","+user.getEmail())
-                .setIssuer("CodeJava")
+                .setIssuer("")
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis()+ EXPIRE_DURATION))
                 .signWith(io.jsonwebtoken.SignatureAlgorithm.HS512,secretKey)
